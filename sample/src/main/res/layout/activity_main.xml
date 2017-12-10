@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.k2.clockviewsample.MainActivity">
+
+    <com.k2.analogueclockview.AnalogueClock
+        android:id="@+id/clock_view"
+        app:outline_width="20"
+        app:outline_color="@android:color/white"
+        android:padding="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+
+</FrameLayout>

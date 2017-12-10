@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AnalogueClock">
+        <!--Hand colours-->
+        <attr name="outline_color" format="color" />
+        <attr name="minute_hand_color" format="color" />
+        <attr name="hour_hand_color" format="color" />
+        <attr name="second_hand_color" format="color" />
+        <!--Hand width-->
+        <attr name="outline_width" format="integer" />
+        <attr name="minute_hand_width" format="integer" />
+        <attr name="hour_hand_width" format="integer" />
+        <attr name="second_hand_width" format="integer" />
+        <!--Fill clock background-->
+        <attr name="fill_background" format="boolean" />
+
+    </declare-styleable>
+
+</resources>
